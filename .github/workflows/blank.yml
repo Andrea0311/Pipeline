@@ -1,5 +1,4 @@
-
-name: CI
+name: CI Pipeline
 
 on:
   push:
@@ -28,4 +27,3 @@ jobs:
 
     - name: Ejecutar pruebas
       run: npm test
-          echo test, and deploy your project.
